@@ -60,3 +60,27 @@ footer {
     width: 80%;
   }
 }
+
+/* dashboard */
+
+.hidden {
+  display: none;
+}
+
+.dashboard-container {
+  padding: 2rem;
+}
+
+.dashboard-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-container li {
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-container a {
+  text-decoration: none;
+  color: #00796b;
+}

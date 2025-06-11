@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Profile - Career Counseling Platform</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="form-container">
+      <h2>Edit Profile</h2>
+      <form id="profileForm">
+        <input type="text" id="fullName" placeholder="Full Name" required />
+        <input type="text" id="skills" placeholder="Skills (comma-separated)" />
+        <input type="text" id="education" placeholder="Education" />
+        <textarea id="bio" placeholder="Short Bio"></textarea>
+        <button type="submit">Save Profile</button>
+      </form>
+      <p id="statusMessage" style="margin-top: 1rem"></p>
+    </main>
+
+    <script type="module" src="js/profile.js"></script>
+  </body>
+</html>
