@@ -43,4 +43,20 @@ nav a {
   border-radius: 5px;
 }
 
-footer
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #004466;
+  color: white;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .btn-primary {
+    width: 80%;
+  }
+}
