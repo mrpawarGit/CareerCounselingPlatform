@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Career Counseling Platform</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="form-container">
+      <h2>Create Your Account</h2>
+      <form id="signupForm">
+        <input type="text" id="fullName" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <select id="userType" required>
+          <option value="">Select Account Type</option>
+          <option value="user">User (Job Seeker)</option>
+          <option value="counselor">Career Counselor</option>
+        </select>
+        <button type="submit">Sign Up</button>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+      </form>
+      <p id="errorMessage" style="color: red; margin-top: 1rem"></p>
+    </main>
+
+    <script type="module" src="js/signup.js"></script>
+  </body>
+</html>
