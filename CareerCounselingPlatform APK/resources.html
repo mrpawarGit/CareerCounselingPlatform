@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources - Career Counseling Platform</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="resource-page">
+      <h2>📚 Career Resource Library</h2>
+
+      <!-- Upload Form -->
+      <section class="upload-form">
+        <h3>Upload a Resource</h3>
+        <form id="uploadForm">
+          <input type="text" id="title" placeholder="Title" required />
+          <input
+            type="text"
+            id="category"
+            placeholder="Category (e.g. Resume, Interview)"
+            required
+          />
+          <input
+            type="url"
+            id="link"
+            placeholder="Resource Link (URL)"
+            required
+          />
+          <button type="submit">Upload</button>
+          <p id="uploadStatus"></p>
+        </form>
+      </section>
+
+      <!-- Resource List -->
+      <section>
+        <h3>Available Resources</h3>
+        <div id="resourceList" class="resource-list"></div>
+      </section>
+    </main>
+
+    <script type="module" src="js/resources.js"></script>
+  </body>
+</html>
