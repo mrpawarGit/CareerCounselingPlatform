@@ -145,3 +145,18 @@ footer {
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
+
+/* user-dashboard.html */
+
+.session-card span.pending {
+  color: orange;
+  font-weight: bold;
+}
+.session-card span.approved {
+  color: green;
+  font-weight: bold;
+}
+.session-card span.rejected {
+  color: red;
+  font-weight: bold;
+}
