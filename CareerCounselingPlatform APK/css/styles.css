@@ -160,3 +160,15 @@ footer {
   color: red;
   font-weight: bold;
 }
+
+/* Assessment */
+
+.quiz-section {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.quiz-section p {
+  margin: 0.5rem 0;
+}
